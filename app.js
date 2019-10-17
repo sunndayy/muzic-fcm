@@ -32,11 +32,9 @@ app.post('/notification', (req, res) => {
             registrationTokens.push(element.token)
         })
         var message = {
-            notification: {
-                title: req.body.title,
-                body: req.body.message
-            },
             data: {
+                title: req.body.title,
+                message: req.body.message,
                 videos: JSON.stringify(req.body.data)
             },
             tokens: registrationTokens
