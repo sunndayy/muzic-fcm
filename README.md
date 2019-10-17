@@ -10,14 +10,14 @@ POST /notification
         {
             "videoId" : "",
             "title" : "",
-            "duration : "",
+            "duration" : "",
             "channel" : "",
             "linkThumbnail" : ""
         },
         {
             "videoId" : "",
             "title" : "",
-            "duration : "",
+            "duration" : "",
             "channel" : "",
             "linkThumbnail" : ""
         }
